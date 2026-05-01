@@ -39,11 +39,9 @@ function driveVideoUrl(url) {
     return url;
 }
 
-// ---- Gallery Data ----
 // type: 'image' (default) or 'video'
 // For Google Drive images & videos: just paste the share link
 const galleryItems = [
-    // --- Your Google Drive media ---
     {
         src: 'https://drive.google.com/file/d/1sNocQOvXsXSOh3zwIqe_2qkJ382rFPZv/view?usp=sharing',
         category: 'wedding',
